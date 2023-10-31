@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from '../../node_modules/@electron/';
+import { app, BrowserWindow } from 'electron';
 function createWindow () {
  const mainWindow = new BrowserWindow({
  width: 800,
